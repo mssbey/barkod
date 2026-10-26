@@ -1,0 +1,37 @@
+ETİKET ATÖLYESİ — Xprinter XP-490B / Windows
+
+1. ZIP dosyasını bir klasöre çıkarın. Dosyaları birlikte tutun.
+2. XP-490B'nin üretici Windows sürücüsünü kurun ve yazıcıyı bağlayın.
+   Üretici: https://www.xprintertech.com/xp-490b-xp-490e-1
+3. Baslat.cmd dosyasına çift tıklayın. Ek bir Python veya Node kurulumu gerekmez.
+4. Yazıcı listesinden kendi XP-490B yazıcınızı seçin.
+5. Varsayılan etiket: 50 mm genişlik, 30 mm yükseklik.
+   Rulonuzun eni 30 mm ise 30 × 50 mm seçin.
+6. Başlığı, açıklamayı ve isterseniz alt satırı yazın. Boş bırakabilirsiniz.
+   Sadece yazı basmak için "Barkod ekle" seçeneğini kapatın.
+7. Barkod için ürün kodunuzu yazın. Code 128 üretilir; rakam, İngilizce harf
+   ve standart işaret desteklenir. Yazı alanlarında Türkçe desteklenir.
+8. Önce 1 adet basın, doğru çıkıyorsa istediğiniz adedi seçin (en çok 500).
+
+İLK KURULUM / ÖLÇÜ
+Windows > Yazıcılar ve tarayıcılar > XP-490B > Yazdırma tercihleri:
+Kâğıt ölçüsünü uygulamadaki ölçüyle aynı yapın. Etiket aralıklıysa sürücüde
+gap/aralıklı etiket türünü ve gerçek etiketler arasındaki boşluğu seçin.
+Gerekirse üreticinin sürücü/kalibrasyon aracından etiket sensörünü kalibre edin.
+Uygulama özel sayfa ölçüsünü Windows sürücüsüne gönderir. Bazı sürücüler
+kendi varsayılan ölçüsünü koruyabilir; ilk fiziksel baskıyla doğrulayın.
+
+YAZI VE BARKOD
+Yazı sığmıyorsa boyutunu küçültün veya metni kısaltın. Uygulama sığmayan
+etiketi yazdırmaz. Barkod çevresindeki beyaz boşluğu korur ve çizgileri en az
+2 nokta olarak çizer. Uzun kodlar küçük etikete sığmayabilir. Sayısal diziler
+Code 128 C ile sıkıştırılır. Barkod numarası ürününüze aittir; uygulama bir
+GS1/EAN numarası tahsis etmez. İlk etiketi kendi okuyucunuzla deneyin.
+
+GİZLİLİK / BAĞLANTI
+Yerel Windows uygulamasıdır. Metinleri internete göndermez ve kaydetmez.
+Windows yazıcı kuyruğunu kullanır; USB veya Windows'a kurulmuş ağ yazıcısı
+ile çalışabilir. Sürücüsüz doğrudan USB bağlantısı yapmaz.
+"Kuyruğa gönderildi" mesajı fiziksel baskının tamamlandığını göstermez.
+
+Bu ortamda fiziksel yazıcıyla baskı testi yapılamadı.
